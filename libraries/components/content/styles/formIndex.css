@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    background-attachment: fixed;
+    background-origin: inital;
+    background-repeat: no repeat;
+}
+
+.signup-container {
+    width: 100%;
+}
+
+.header {
+    margin-top: -50px;
+}
+
+.header h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    color: #02386b;
+}
+
+.container {
+    margin: auto;
+    padding: 150px 0;
+    top: 50%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    background: #bcdce9;
+    padding: 100px;
+    width: 100% auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+button[type="button"],
+button[id="prev"] {
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+    color: #30375a;
+    margin: 15px;
+    font-weight: bold;
+}
+
+button[type="button"]:hover {
+    background-color: rgb(103, 163, 241);
+    color: #fff;
+
+}
+
+button[id="prev"]:hover {
+    background-color: rgb(103, 163, 241);
+    color: #fff;
+}

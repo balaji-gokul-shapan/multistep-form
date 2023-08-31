@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #30375a;
+    margin: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="select"] {
+    font-family: 'Roboto', sans-serif;
+    padding: 6px;
+    display: flexbox;
+    border: none;
+    margin: 20px;
+    border-radius: 4px;
+}

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.radio-group,
+.checkbox-group {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.checkbox-group>div {
+    margin: 30px;
+    display: flex;
+    margin: 30px auto;
+}
+
+.check-group > div{
+    display: flex;
+   justify-content: center;
+    /* justify-content:space-evenly; */
+    margin: 1px auto; 
+}
+
+h4{
+    font-size: 20px;
+    color: #317874;
+}

@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    color: #02386b;}
+label{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #30375a;
+    margin: 15px;
+    font-weight: bold;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #010f1b;
+}
